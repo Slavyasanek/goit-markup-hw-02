@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica", "Tahoma", sans-serif;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+/* Навігація сайту */
+
+.header {
+  background-color: #ffffff
+}
+
+.logo,
+.logo:visited {
+  font-family: "Raleway", "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-color,
+.logo-color:visited {
+  color: #2196f3;
+}
+
+.nav-list,
+.contacts-list,
+.features-list,
+.activity-list,
+.team-list,
+.address-list,
+.filter-list,
+.portfolio-list {
+  list-style: none;
+}
+
+.nav-list-item,
+.nav-list-item:visited {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: #2196f3;
+}
+
+.contacts-list-item,
+.contacts-list-item:visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.contacts-list-item:hover,
+.contacts-list-item:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+  width: 100%;
+  height: 600px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:active,
+.hero-button:focus {
+  background: #188ce8;
+}
+
+/* Секції */
+
+.activity,
+.features {
+  background-color: #ffffff;
+}
+
+.hidden-title {
+  visibility: hidden;
+}
+
+.activity-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.feature-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-list-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-list-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+}
+
+.address-list-item,
+.address-list-item:visited {
+  font-style: normal;
+  text-decoration: none;
+}
+.address-list-item:hover,
+.address-list-item:active,
+.address-list-item:focus {
+  color: #2196f3;
+}
+
+.geo {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.connect {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+/* Портфоліо */
+
+.portfolio {
+  background: #ffffff;
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  border: transparent;
+  cursor:pointer;
+}
+
+.filter-button:hover,
+.filter-button:active,
+.filter-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-list-item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
+
+.filter-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filter-list-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.825;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
